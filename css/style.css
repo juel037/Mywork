@@ -1,0 +1,33 @@
+*{margin:0;padding:0;outline: 0;}
+a{text-decoration: none;}
+.wrapper{width:1170px;margin:0 auto;}
+.clearfix{overflow:hidden;}
+body{background:#262626;}
+
+/*this is for top header*/ 
+.top-header-section{border-top:8px solid #000000;background:#ffffff;padding-bottom:10px;}
+.top-header{}
+.top-header .slogan-section{width: 545px;margin: 0 auto;font-size: 17px;padding:10px 0;}
+.top-header .slogan-section span{float: left;margin-right: 20px;}
+.top-header img{min-height:25px;width: 100%}
+.top-header .fnal-sent{display:table;margin:0 auto;text-transform: uppercase;font-size: 18px;}
+
+.header-section{background: #ffffff;padding:15px 0px;}
+.header{}
+.header .logo{text-align: center;}
+.header .logo img{width: 371px;margin-bottom: 12px;}
+.top-nav{margin:0 auto;display: table;}
+.top-nav ul{list-style: none;padding: 0;margin: 0;}
+.top-nav ul li{float: left;margin-right: 15px;min-width: 110px;display: block;text-align: center;}
+.top-nav ul li a{display: block;padding: 3px 0px;color:#ffffff;}
+.top-nav ul li a:hover{}
+
+.blog-section{background: #ffffff;}
+.blog{padding:0px 40px;}
+.blog-content{float:left;width:65%;box-sizing: border-box;}
+.blog-content h1{color:#FD5146}
+.blog-post{background: #EFEFEF;position: relative;margin-top: 15px;}
+.label1{position:absolute;top:0;left:0;background: #008BC2;color:#ffffff;padding: 5px 15px;}
+.blog-post h2,.blog-post small,.blog-post p{padding: 0px 15px;}
+.widget{float:left;width:35%;box-sizing: border-box;padding:0px 15px;}
+.widget img{width:325px;}
