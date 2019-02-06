@@ -43,7 +43,7 @@ body{background:#262626;}
 
 .widget-section{float:left;width:35%;box-sizing: border-box;padding:0px 15px;}
 .widget1,.widget2,.widget3,.widget4{padding-bottom: 15px;}
-.widget1 h1,.widget2 h1,.widget3 h1,.widget4 h1{font-size: 20px;padding-bottom: 5px;}
+.widget1 h1,.widget2 h1,.widget3 h1,.widget4 h1,.widget5 h1{font-size: 20px;padding-bottom: 5px;}
 .widget1 img{width:325px;margin-top: 15px;}
 .widget1 p{text-align: justify;}
 .widget1 .form{display: block;margin-top: 15px;}
@@ -57,12 +57,18 @@ body{background:#262626;}
 .widget2 p span,.widget3 p span,.widget4 p span{background: #000000;color:#ffffff;padding: 4px 5px;margin-right: 10px;font-size: 14px;}
 .widget5 select{width:100%;min-height: 24px;}
 
-.footer-section{background-image: url(../images/bottom_BG.png);background-repeat: no-repeat;background-size: cover;min-height: 700px;width: 100%;text-align: center;}
+footer{}
+.footer-section{background-image: url(../images/bottom_BG.png);background-repeat: no-repeat;background-size:cover;height: auto;min-width: 100%; background-position: left top;padding: 0px 3%;}
 .footer-section{}
-.footer-section h2{color:#206263;font-size: 20px;}
-.footer-left{float:left;background: #06466F;width:45%;color: #fff;margin-left: 150px;}
+.footer-section h2{color:#45BA67;padding: 15px 100px;}
+.footer-left{float:left;background: #06466F;width:45%;color: #fff;box-sizing: border-box;padding: 20px 0px;}
+.footer-left h4{color:#ffffff;margin-left: 30%;font-size: 16px;padding-bottom: 30px;}
 .footer-left table{}
-.footer-left table tr{padding: 10px;}
-.footer-right{float:left;width:45%;background:#06466F; }
+.footer-left table tr,.footer-left table tr td{padding: 5px 22px;}
+.footer-right{float:left;width:45%;background:#06466F;box-sizing: border-box;padding: 20px 0px;text-align: center;margin-left: 3%;padding-bottom: 3%;}
+.footer-right h4{color:#ffffff;padding-bottom: 30px;}
+.footer-right img{margin-right: 20px;}
+.footer-right p{color:#fff;font-size: 16px;text-align:justify;margin-left: 2%;margin-top: 4%;}
+.footer-img{padding-top: 370px;padding-bottom: 60px;margin-left: 39%;}
 
 
